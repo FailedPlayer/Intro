@@ -1,0 +1,119 @@
+#Con {
+  
+  background: black;
+  border: black;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.buttonstyle{
+  
+  display:grid;
+  background-color: #00000000;
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+  font-size: 150%;
+  color: #ffffff;
+  padding: 5px;
+  text-decoration-line: none ;
+  
+}
+
+.buttonstyle:hover{
+  
+  display:grid;
+  transition: color 0.2s linear 0s;
+  transition: background-color 0.2s linear 0.1s;
+  background-color:white;
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+  font-size: 150%;
+  color: black;
+  padding: 5px;
+  text-decoration-line: none ;
+  cursor: pointer;
+  
+}
+
+.clear {
+  
+  background-color: #00000000;
+  border: 0px solid black;
+  
+}
+
+#Sex-Event {
+  
+  border: 5px solid #ffffff90;
+  filter: drop-shadow(5px 5px 10px #ffffff6f);
+  border-radius: 10000px;
+  height: 90%;
+  width: 90%;
+  
+}
+
+.con {
+  
+ background-color:#000000c5 ;
+
+ padding: 5% 12.5%;
+ border: 6px solid    #ffffff;
+ text-align: center;
+ 
+  
+}
+
+a {
+  
+  color: white;
+  
+}
+
+a:hover {
+  
+  color: grey;
+  
+}
+
+#underline {
+  
+  text-decoration-line: underline;
+  
+}
+
+body {
+  
+  background-size: 100% 100%;
+  background-image: linear-gradient(#ffffff5e, #000000bf), url('/Background-Images/1.jpg');
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  z-index: 1;
+  padding: 5px;
+  
+}
+
+footer {
+  
+  color: white;
+  font-family:  Monospace;
+  font-weight: bold;
+  
+}
+
+p {
+  
+  color: white;
+  font-family:  Monospace;
+  
+}
+
+h2 {
+  
+  color: white;
+  font-family: Monospace;
+  font-weight: bold;
+  
+}
